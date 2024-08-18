@@ -1,9 +1,12 @@
+import Link from 'next/link'
 import React from 'react'
 
-function tick() {
+function dashboard() {
   return (
-    <div>tick</div>
+    <div className="flex flex-col font-extrabold text-white m-28 items-center content-center my-5">
+    ticket conifg 
+      </div>
   )
 }
 
-export default tick
+export default dashboard
